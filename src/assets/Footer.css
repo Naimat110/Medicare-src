@@ -1,0 +1,38 @@
+footer
+{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background:linear-gradient(90deg, rgba(1, 45, 68, 0.884) 22%, rgba(0,119,182,0.5) 59%), url('images/home-banner.jpg');
+    background-size: cover;
+}
+footer .sec:nth-child(1)
+{
+    width: 350px;
+    padding-right: 18px;
+
+}
+footer .sec
+{
+    width: 300px;
+}
+footer .sec h2
+{
+    color:#fff;
+    font-size: 1.6em;
+
+}
+footer .sec p
+{
+    color: #ccc9c9;
+}
+footer .sec ul
+{
+    padding: 0px 20px;
+}
+footer .sec .link
+{
+    color:#fff;
+    margin: 8px 0px;
+    display: inline-block;
+}

@@ -1,0 +1,303 @@
+.homeBanner
+{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(90deg, rgba(0,119,182,0.8) 22%, rgba(0,119,182,0.8) 59%), url('images/home-banner.jpg');
+    background-size: cover;
+    
+
+}
+.homeBanner .leftSide
+{
+    width: 50%;
+    padding:50px;
+    
+}
+.homeBanner .leftSide h2
+{
+    color: #fff;
+    font-size: 3.5em;
+}
+.homeBanner .rightSide
+{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.homeBanner .rightSide img
+{
+    width: 70%;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 60px;
+    
+}
+.aboutSection
+{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutSection .leftSide
+{
+    width: 45%;
+}
+
+.aboutSection .leftSide h3
+{
+    padding: 6px 15px;
+    background-color: #006398;
+    color: #f2f6f7;
+    display:inline-block;
+    text-transform: uppercase;
+}
+.aboutSection .leftSide h2
+{
+    margin-top: 12px;
+    font-size: 2em;
+    color: #006398;
+}
+.aboutSection .leftSide p
+{
+    line-height: 35px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.aboutSection .leftSide button
+{
+    margin-top: 10px;
+    padding: 6px 14px;
+    border: none;
+    font-size: 18px;
+    background-color: #006398;
+    color: #fff;
+    text-transform: uppercase;
+}
+.aboutSection .rightSide
+{
+    width: 50%;
+    height: 420px;
+    
+}
+.aboutSection .rightSide img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.servicesSection
+{
+    width: 100%;
+    padding: 30px;
+}
+.servicesSection .title
+{
+    text-align: center;
+}
+.servicesSection .title h2
+{
+margin-top: 12px;
+font-size: 2em;
+color: #006398;
+}
+.servicesSection .title h3
+{
+    padding: 6px 15px;
+    background-color: #006398;
+    display:inline-block;
+    text-transform: uppercase;
+
+}
+.servicesSection .servicesCard
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.servicesSection .subCard
+{
+    width: 380px;
+    height: 430px;
+    /* border: 1px solid black; */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px lightgrey;
+    margin: 10px 0px;
+    
+}
+.servicesSection .subCard img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.servicesSection .subCard .cardDetail
+{
+    padding: 10px;
+    background-color: #006398;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    transition-duration: 0.3s;
+    
+}
+.servicesSection .subCard .cardDetail h2
+{
+    
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.servicesSection .subCard:hover .cardDetail
+{
+    bottom: 0;
+}
+.expertSection
+{
+    width: 100%;
+    padding: 30px;
+}
+.expertSection .title
+{
+    text-align: center;
+}
+.expertSection .title h2
+{
+margin-top: 12px;
+font-size: 2em;
+color: #006398;
+}
+.expertSection .title h3
+{
+    padding: 6px 15px;
+    background-color: #006398;
+    display:inline-block;
+    text-transform: uppercase;
+
+}
+.expertSection .expertCard
+{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.expertSection .expertCard .expertSubCard
+{
+    width: 380px;
+    height: 440px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.expertSection .expertCard .expertSubCard img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.expertSection .expertCard .expertSubCard .expertSubCardDetail
+{
+    width: 100%;
+    padding: 20px 10px;
+    position: absolute;
+    bottom: -129px;
+    
+    opacity: 1;
+    background-color: #004d77a9;
+    transition-duration: 0.3s;
+
+}
+.expertSection .expertCard .expertSubCard .expertSubCardDetail h2
+{
+    font-size: 1.2em;
+    color: #fff;
+    width: 100%;
+
+}
+.expertSection .expertCard .expertSubCard .expertSubCardDetail h3
+{
+    width: 100%;
+    font-size: 1.4em;
+    color: #fff;
+    
+}
+.expertSection .expertCard .expertSubCard:hover .expertSubCardDetail
+{
+    bottom: 0;
+}
+.contactSection
+{
+    width: 100%;
+    padding: 30px;
+}
+.contactSection .title
+{
+    text-align: center;
+}
+.contactSection .title h2
+{
+margin-top: 12px;
+font-size: 2em;
+color: #006398;
+}
+.contactSection .title h3
+{
+    padding: 6px 15px;
+    background-color: #006398;
+    display:inline-block;
+    text-transform: uppercase;
+
+}
+.contactSection .myForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactSection .myForm form
+{
+    width: 75%;
+}
+.contactSection .myForm input
+{
+    width: 100%;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background-color:  rgba(209, 206, 206, 0.555);
+    padding: 12px;
+    border-radius: 10px;
+}
+.contactSection .myForm textarea
+{
+    width: 100%;
+    height: 120px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background-color: rgba(209, 206, 206, 0.555);
+    resize: none;
+
+}
+.contactSection .myForm input[type="submit"]
+{
+     background-color: #004d77;
+     color: #fff;
+     cursor: pointer;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+
+}

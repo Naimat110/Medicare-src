@@ -1,0 +1,31 @@
+.expertBanner
+{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg, rgba(1, 45, 68, 0.884) 22%, rgba(0,119,182,0.5) 59%), url('images/doctor8.jpg');
+    background-size: cover;
+}
+.expertBanner .title
+{
+    text-align: center;
+
+}
+.expertBanner .title h2
+{
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px #000;
+}
+.expertBanner .title h3
+{
+
+    font-size: 4em;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 10px #000
+}
